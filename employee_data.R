@@ -1,0 +1,7 @@
+name <- c('Adam','Bob','Charlie','Diane','Eugene')
+age <- c(18,45,44,32,35)
+gender <- c('male','male','male','female','male')
+role <- c('apprentice','engineer','engineer','analyst','PA')
+length_of_service <- c(0.6,12,8,5,7)
+employee.data <- data.frame(name,age,gender,role,length_of_service,stringsAsFactors=FALSE)
+print(employee.data)
